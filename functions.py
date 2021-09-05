@@ -4,7 +4,7 @@
 
 def get_summ(one, two, delimiter='&'):
     result = str(f'{one} {delimiter} {two}')
-    return result.capitalize()
+    return result.upper()
 
-final_result = get_summ('Learn', 'python')
+final_result = get_summ('learn', 'python')
 print(final_result)

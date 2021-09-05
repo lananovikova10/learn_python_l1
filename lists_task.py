@@ -18,3 +18,6 @@ print(my_list[1:4])
 my_list.remove("Python")
 print (my_list)
 
+# найти элемент по позиции и удалить его
+
+
